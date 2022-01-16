@@ -15,7 +15,8 @@
     - [**Authentication**](#authentication)
     - [**Users**](#users)
     - [**Board**](#board)
-    - [Players](#players)
+- [Περιγραφή βάσης](#περιγραφή-βάσης)
+  - [User](#user)
 
 # Demo Page
 
@@ -53,8 +54,6 @@ uvicorn backend.main:app --reload
 - https://fastapi-adise21.herokuapp.com/docs#/
 
 ### Run Frontend
-
-- Ανοίξτε τερμάτικο
 
 ```
 cd frontend
@@ -122,7 +121,9 @@ npm run dev
 | `api/boards/{id}`   | Get          | Params: id        | Eπιστρέφει το board ανάλογα με το id             |
 | `api/boards/`       | Post         |                   | Δημιουργεί ένα board                             |
 | `api/boards/{id}`   | Put          | Params: id        | Ενημερώνει τα στοιχεία ενός συγκεκριμενού board  |
-| `api/boards/{id}`   | Delete       | Params: page,lang | Διαγράφη τα στοιχεία ενός συγκεκριμένου board    |
+| `api/boards/{id}`   | Delete       | Params: page,lang | Διαγράφη το συγκεκριμένο board                   |
+
+# Περιγραφή βάσης
 
 Το board είναι ένας πίνακας, ο οποίος στο κάθε στοιχείο έχει τα παρακάτω:
 
@@ -136,7 +137,7 @@ npm run dev
 | `is Full`       | Ελένχγει αν το board έχει 2 παίχτες ή 1                          | bool      |
 | `status`        | Ελένχγει αν το board είναι active δηλαδή αν κάποιος παίζει ή οχι | varchar   |
 
-### Players
+### User
 
 ---
 
