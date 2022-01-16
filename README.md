@@ -33,8 +33,9 @@ https://fastapi-adise21.herokuapp.com/docs#/
 
 ## Τεχνολογίες
 
-<img align="left" alt=".Net"  width="50px" src="https://repository-images.githubusercontent.com/260928305/92388600-8d1c-11ea-9993-a726466b5099" /> 
-<img align="left" alt="Bootstrap"  width="50px" src="https://miro.medium.com/max/700/0*nkoZ230PgK9FAdkv.png" /> 
+<img align="left" alt=".Net"  width="100px" src="https://repository-images.githubusercontent.com/260928305/92388600-8d1c-11ea-9993-a726466b5099" /> 
+<img align="left" alt="Bootstrap"  width="100px" src="https://miro.medium.com/max/700/0*nkoZ230PgK9FAdkv.png" /> 
+<br>
 <br>
 
 ## Οδηγίες Εγκατάστασης
