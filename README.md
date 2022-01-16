@@ -16,6 +16,7 @@
     - [**Users**](#users)
     - [**Board**](#board)
 - [Περιγραφή βάσης](#περιγραφή-βάσης)
+  - [Board](#board-1)
   - [User](#user)
 
 # Demo Page
@@ -124,6 +125,8 @@ npm run dev
 | `api/boards/{id}`   | Delete       | Params: page,lang | Διαγράφη το συγκεκριμένο board                   |
 
 # Περιγραφή βάσης
+
+### Board
 
 Το board είναι ένας πίνακας, ο οποίος στο κάθε στοιχείο έχει τα παρακάτω:
 
