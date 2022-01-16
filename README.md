@@ -92,6 +92,13 @@ npm run dev
 
 ## Συντελεστές
 
+<!-- Copy-paste in your Readme.md file -->
+
+<a href = "https://github.com/iee-ihu-gr-course1941/ADISE21_TeamFailures/graphs/contributors">
+  <img src = "https://contrib.rocks/image?iee-ihu-gr-course1941/ADISE21_TeamFailures = michaeltheo/
+ADISE21_TeamFailures"/>
+</a>
+
 - Μιχάλης Θεοχάρης: Full Stack
 
 ....
