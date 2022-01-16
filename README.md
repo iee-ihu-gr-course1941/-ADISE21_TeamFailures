@@ -100,7 +100,7 @@ npm run dev
  - Μιχάλης Θεοχάρης: Full Stack
 </a>
 
-- Μιχάλης Θεοχάρης: Full Stack
+
 
 ....
 
