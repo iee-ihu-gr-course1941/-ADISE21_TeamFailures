@@ -144,7 +144,7 @@ def update(id: UUID, request: schemas.Boards, db: Session):
     if len(board_model.players) == 2:
         board.update({"isFull": True})
     db.commit()
-    win, how = checkresult(board_model)
+    win, how = checkResult(board_model)
     if win:
         board.update({"status": f'Winner is {request.active_player}'})
         return JSONResponse(content={"detail": "We have a winner", "how": how, "winner": request.active_player})
