@@ -115,14 +115,14 @@ npm run dev
 
 ### **Board**
 
-| Method              | request type | parameters        | Description                                      |
-| ------------------- | ------------ | ----------------- | ------------------------------------------------ |
-| `api/boards/`       | Get          |                   | Επιστρέφει όλα τα Boards                         |
-| `api/boards/random` | Get          |                   | Eπιστρέφει ένα board που έχει μόνο 1 παίχτη μέσα |
-| `api/boards/{id}`   | Get          | Params: id        | Eπιστρέφει το board ανάλογα με το id             |
-| `api/boards/`       | Post         |                   | Δημιουργεί ένα board                             |
-| `api/boards/{id}`   | Put          | Params: id        | Ενημερώνει τα στοιχεία ενός συγκεκριμενού board  |
-| `api/boards/{id}`   | Delete       | Params: page,lang | Διαγράφη το συγκεκριμένο board                   |
+| Method              | request type | parameters | Description                                      |
+| ------------------- | ------------ | ---------- | ------------------------------------------------ |
+| `api/boards/`       | Get          |            | Επιστρέφει όλα τα Boards                         |
+| `api/boards/random` | Get          |            | Eπιστρέφει ένα board που έχει μόνο 1 παίχτη μέσα |
+| `api/boards/{id}`   | Get          | Params: id | Eπιστρέφει το board ανάλογα με το id             |
+| `api/boards/`       | Post         |            | Δημιουργεί ένα board                             |
+| `api/boards/{id}`   | Put          | Params: id | Ενημερώνει τα στοιχεία ενός συγκεκριμενού board  |
+| `api/boards/{id}`   | Delete       | Params: id | Διαγράφη το συγκεκριμένο board                   |
 
 # Περιγραφή βάσης
 
