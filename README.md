@@ -21,12 +21,13 @@
 
 Μπορείτε να κατεβάσετε τοπικά ή να επισκευτείτε την σελίδα:
 
+https://fastapi-adise21.herokuapp.com/docs#/
+
 # Εγκατάσταση
 
 ## Απαιτήσεις
 
-- python 3.7+
-- npm 8.3+
+Υπάρχει μέσα στο project o φάκελος requirements για να δείτε τι χρειάζεστε.
 
 ## Τεχνολογίες
 
@@ -49,6 +50,7 @@ uvicorn backend.main:app --reload
 ```
 
 - Επισκεφτείτε στην διεύθυνση http://127.0.0.1:8000/docs για να δείτε το API
+- https://fastapi-adise21.herokuapp.com/docs#/
 
 ### Run Frontend
 
@@ -124,14 +126,15 @@ npm run dev
 
 Το board είναι ένας πίνακας, ο οποίος στο κάθε στοιχείο έχει τα παρακάτω:
 
-| Attribute       | Description                                 | TYPE      |
-| --------------- | ------------------------------------------- | --------- |
-| `id`            | To id του καθε board                        | UUID      |
-| `creator_id`    | το id του χρήστη που έφτιαξε το board       | int4      |
-| `players`       | Οι παίκτες που είναι μέσα στο board         | \_varchar |
-| `board`         | Το board που είναι μια λίστα με 16 στοιχεία | \_varchar |
-| `active_player` | O χρήστης που παίζει σε κάθε γύρο           | varchar   |
-| `is Full`       | Ελένχγει αν το board έχει 2 παίχτες ή 1     | bool      |
+| Attribute       | Description                                                      | TYPE      |
+| --------------- | ---------------------------------------------------------------- | --------- |
+| `id`            | To id του καθε board                                             | UUID      |
+| `creator_id`    | το id του χρήστη που έφτιαξε το board                            | int4      |
+| `players`       | Οι παίκτες που είναι μέσα στο board                              | \_varchar |
+| `board`         | Το board που είναι μια λίστα με 16 στοιχεία                      | \_varchar |
+| `active_player` | O χρήστης που παίζει σε κάθε γύρο                                | varchar   |
+| `is Full`       | Ελένχγει αν το board έχει 2 παίχτες ή 1                          | bool      |
+| `status`        | Ελένχγει αν το board είναι active δηλαδή αν κάποιος παίζει ή οχι | varchar   |
 
 ### Players
 
